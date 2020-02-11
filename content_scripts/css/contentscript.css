@@ -1,0 +1,152 @@
+#c {
+	float: unset;
+	display: inline-block;
+}
+
+.s {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  float: left;
+  background: #03A9F4;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  transition: all 0.2s;
+  -webkit-animation: r5 1s 0s ease-out infinite;
+  -moz-animation: r5 1s 0s ease-out infinite;
+  animation: r5 1s 0s ease-out infinite;
+}
+
+@-webkit-keyframes r5 {
+  0% {
+    box-shadow: 0 0 4px 3px rgba(93,204,231, .5), 0 0 0px 0px transparent, 0 0 0px 0px rgba(93,204,231, .7);
+  }
+  10% {
+    transform:scale(1,1);
+    box-shadow: 0 0 4px 3px rgba(93,204,231, .5), 0 0 12px 10px transparent, 0 0 6px 7px rgba(93,204,231, .7);
+  }
+  100% {
+    box-shadow: 0 0 4px 3px rgba(26, 140, 255, 0), 0 0 0px 40px transparent, 0 0 0px 40px rgba(26, 140, 255, 0);
+  }
+}
+@-moz-keyframes r5 {
+  0% {
+    box-shadow: 0 0 4px 3px rgb(93,204,231), 0 0 0px 0px transparent, 0 0 0px 0px rgb(93,204,231);
+  }
+  10% {
+    box-shadow: 0 0 4px 3px rgb(93,204,231), 0 0 12px 10px transparent, 0 0 6px 7px rgb(93,204,231);
+  }
+  100% {
+    box-shadow: 0 0 4px 3px rgba(26, 140, 255, 0), 0 0 0px 40px transparent, 0 0 0px 40px rgba(26, 140, 255, 0);
+  }
+}
+@keyframes r5 {
+  0% {
+    box-shadow: 0 0 4px 3px rgb(93,204,231), 0 0 0px 0px transparent, 0 0 0px 0px rgb(93,204,231);
+  }
+  10% {
+    box-shadow: 0 0 4px 3px rgb(93,204,231), 0 0 12px 10px transparent, 0 0 6px 7px rgb(93,204,231);
+  }
+  100% {
+    box-shadow: 0 0 4px 3px rgba(26, 140, 255, 0), 0 0 0px 40px transparent, 0 0 0px 20px rgba(26, 140, 255, 0);
+  }
+}
+
+#c{
+	z-index: 9999;
+	margin-top: -92px;
+}
+#c:hover  .techspecs-product-wrapper {
+    display: block !important;
+}
+
+.techspecs-product-wrapper {
+    margin-left: 1%;
+    display: none;
+	float: left;
+	margin-top: -10px;	
+}
+
+.DOMisLoaded .techspecs-product-wrapper{
+	position: relative;
+}
+
+.techspecs-product-wrapper .techspecs_iframe{
+	width:355px;
+	z-index:766746578;  
+	min-height: 400px; 
+	opacity: 1; 
+	position: fixed !important; 
+	display: block !important;
+	border-radius: 8px;
+	overflow:hidden !important; 
+	border:1px solid #f5f5f5;
+	border-right:unset;
+}
+
+.DOMisLoaded .techspecs-product-wrapper .techspecs_iframe{
+	position: absolute !important; 
+	/* width:380px; */
+	min-height: 402px; 
+}
+
+/*************** YT specific CSS*********************/
+.yt-techspecs-product-wrapper{
+	width: 100%;
+	min-height: 415px;
+	margin-bottom: 10px;
+	background:#FFFFFF;
+	border: 0.5px solid #DEE5EC;
+	border-radius: 2px;
+	border-width:0.5px 3px 2px 0.5px;
+	display:none;
+}
+
+.yt-techspecs-product-wrapper .techspecs_iframe{
+	width:100%;
+	border: none; 
+	height: 415px; 
+	opacity: 1;	
+}
+
+.yt-techspecs-product-wrapper .techspecs_iframe{
+	display:block;
+}
+
+.yt-techspecs-product-wrapper .product-short-descr{
+	padding:12px;	
+}
+
+.yt-techspecs-product-wrapper .techspec-row.first{
+	margin-bottom : 15px;
+}
+
+.yt-techspecs-product-wrapper .techspec-row a{
+	font: Bold 12px/15px Proxima Nova;
+	letter-spacing: 0;
+	color: #13A7F4;
+	text-decoration:none;
+}
+
+.yt-techspecs-product-wrapper .techspec-row h5{
+	font:Bold 12px/18px Proxima Nova;
+	letter-spacing: -0.24px;
+	color: #242B2E;
+}
+.yt-techspecs-product-wrapper .techspec-row h6{
+	font:Bold 14px/17px Proxima Nova;
+	letter-spacing: -0.28px;
+}
+
+.yt-techspecs-product-wrapper .techspec-row{
+    margin: 5px 0;
+}
+
+.techspecs-model.jiji{
+	margin-top: -10px;
+	margin-left: 15px;
+}
+.techspecs-model.jiji .s {
+  width: 16px;
+  height: 16px;
+}
